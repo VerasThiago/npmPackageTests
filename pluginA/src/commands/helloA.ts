@@ -1,6 +1,7 @@
 import {Command, flags} from '@oclif/command'
+import {Display} from '@thiagoveras/toolbelt-api-test'
 
-export default class HelloA extends Command {
+export default  class HelloA extends Command {
   static description = 'Single Command from Plugin A'
 
   static examples = [
@@ -16,6 +17,6 @@ export default class HelloA extends Command {
   async run() {
     this.parse(HelloA)
 
-    this.log(`Hello from Plugin A`)
+    this.log(`Hello from Plugin A at ${Display.time()}`)
   }
 }

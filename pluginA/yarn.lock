@@ -144,6 +144,14 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-1.0.4.tgz#b740f68609dfae8aa71c3a6cab15d816407ba493"
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
+"@thiagoveras/toolbelt-api-test@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@thiagoveras/toolbelt-api-test/-/toolbelt-api-test-1.0.0.tgz#cf5c121aa6c3415af31ea5751d73e958cf7a9cb2"
+  integrity sha512-n01FR4E4D4sY1AggPj3JgO1ZZaD0mvRhogtLxzRNpQq8ArZnFqEd/GaZMTxWRbBfV2dSCLaTyEP3mk1Ri64lkA==
+  dependencies:
+    tslint "^6.1.2"
+    typescript "^3.9.5"
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -1272,12 +1280,6 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
-
-toolbelt-api-test@../toolbelt-api-test/:
-  version "1.0.0"
-  dependencies:
-    tslint "^6.1.2"
-    typescript "^3.9.5"
 
 ts-node@^8:
   version "8.10.2"
