@@ -6,6 +6,7 @@
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
+    "@thiagoveras/toolbelt-api-test": "1.0.1",
     "tslib": "^1"
   },
   "devDependencies": {
@@ -20,7 +21,7 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/lib",
+    "/build",
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json",
     "/yarn.lock"
@@ -31,7 +32,7 @@
   ],
   "license": "MIT",
   "oclif": {
-    "commands": "./lib/commands",
+    "commands": "./build/commands",
     "bin": "oclif-example",
     "devPlugins": [
       "@oclif/plugin-help"

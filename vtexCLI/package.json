@@ -25,7 +25,7 @@
   },
   "files": [
     "/bin",
-    "/lib",
+    "/build",
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
@@ -34,9 +34,9 @@
     "oclif"
   ],
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "oclif": {
-    "commands": "./lib/commands",
+    "commands": "./build/commands",
     "bin": "clitest",
     "plugins": [
       "@oclif/plugin-help",
@@ -46,9 +46,9 @@
   "repository": "VerasThiago/clitest",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
+    "prepack": "rm -rf build && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "echo NO TESTS",
     "version": "oclif-dev readme && git add README.md"
   },
-  "types": "lib/index.d.ts"
+  "types": "build/index.d.ts"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@thiagoveras/toolbelt-api-test",
-  "version": "1.0.6",
+  "version": "1.0.10",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "build-clean": "rm -rf build",
     "build-incremental": "tsc --incremental",
     "build": "yarn build-clean && tsc",
+    "publish": "yarn build && npm publish",
     "test": "jest",
     "ci:test": "yarn test --ci",
     "ci:prettier-check": "prettier --check --config ./.prettierrc \"**/*.{ts,js,json}\"",
