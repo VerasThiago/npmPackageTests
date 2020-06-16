@@ -1,17 +1,35 @@
 {
   "name": "@thiagoveras/toolbelt-api-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node src/index.js"
+    "format": "prettier --config ./.prettierrc --write \"**/*.{ts,js,json}\"",
+    "lint": "eslint ./src --cache --ext .ts --config .eslintrc",
+    "format-lint": "yarn format && yarn lint",
+    "watch": "yarn build-clean && yarn nodemon",
+    "build-clean": "rm -rf build",
+    "build-incremental": "tsc --incremental",
+    "build": "yarn build-clean && tsc",
+    "test": "jest",
+    "ci:test": "yarn test --ci",
+    "ci:prettier-check": "prettier --check --config ./.prettierrc \"**/*.{ts,js,json}\"",
+    "dev-link": "yarn build && bash scripts/dev-link.sh"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "tslint": "^6.1.2",
-    "typescript": "^3.9.5"
+  "files": [
+    "build"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^12.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-vtex": "^12.3.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "nodemon-notifier-cli": "https://github.com/Slessi/nodemon-notifier-cli.git",
+    "prettier": "^2.0.1",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.2"
   }
 }
