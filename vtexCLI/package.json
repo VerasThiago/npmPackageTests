@@ -42,7 +42,8 @@
     "plugins": [
       "@oclif/plugin-help",
       "@oclif/plugin-plugins",
-      "@verasthiago/plugin-a"
+      "@thiagoveras/plugin-a",
+      "@thiagoveras/plugin-b"
     ]
   },
   "repository": "VerasThiago/clitest",
