@@ -1,6 +1,6 @@
 {
   "name": "@thiagoveras/plugin-b",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Thiago Veras @VerasThiago",
   "bugs": "https://github.com/VerasThiago/npmPackageTests/tree/master/pluginB/issues",
   "dependencies": {
