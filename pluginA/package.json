@@ -1,6 +1,6 @@
 {
   "name": "@thiagoveras/plugin-a",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Thiago Veras @VerasThiago",
   "bugs": "https://github.com/VerasThiago/npmPackageTests/tree/master/pluginA/issues",
   "dependencies": {

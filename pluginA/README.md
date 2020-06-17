@@ -15,11 +15,11 @@ pluginA
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @thiagoveras/pluginA
+$ npm install -g @thiagoveras/plugin-a
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@thiagoveras/pluginA/0.0.0 linux-x64 node-v10.19.0
+@thiagoveras/plugin-a/0.1.0 linux-x64 node-v10.19.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -45,5 +45,5 @@ EXAMPLE
   $ clitest helloA
 ```
 
-_See code: [build/commands/helloA.ts](https://github.com/VerasThiago/npmPackageTests/blob/v0.0.0/build/commands/helloA.ts)_
+_See code: [build/commands/helloA.ts](https://github.com/VerasThiago/npmPackageTests/blob/v0.1.0/build/commands/helloA.ts)_
 <!-- commandsstop -->
