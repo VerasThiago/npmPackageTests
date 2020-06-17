@@ -1,1 +1,0 @@
-{"version":"0.0.0","commands":{"helloA":{"id":"helloA","description":"Single Command from Plugin A","pluginName":"pluginA","pluginType":"core","aliases":[],"examples":["$ clitest helloA"],"flags":{"help":{"name":"help","type":"boolean","char":"h","description":"show CLI help","allowNo":false}},"args":[{"name":"file"}]}}}
