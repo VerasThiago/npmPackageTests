@@ -1,8 +1,8 @@
 {
-  "name": "pluginB",
+  "name": "@thiagoveras/pluginB",
   "version": "0.0.0",
   "author": "Thiago Veras @VerasThiago",
-  "bugs": "https://github.com/VerasThiago/pluginB/issues",
+  "bugs": "https://github.com/VerasThiago/npmPackageTests/tree/master/pluginB/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -26,7 +26,7 @@
     "/oclif.manifest.json",
     "/yarn.lock"
   ],
-  "homepage": "https://github.com/VerasThiago/pluginB",
+  "homepage": "https://github.com/VerasThiago/npmPackageTests/tree/master/pluginB",
   "keywords": [
     "oclif-plugin"
   ],
@@ -38,10 +38,10 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "VerasThiago/pluginB",
+  "repository": "VerasThiago/npmPackageTests",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
+    "prepack": "rm -rf build && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "echo NO TESTS",
     "version": "oclif-dev readme && git add README.md"
   }

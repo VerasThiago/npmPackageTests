@@ -45,5 +45,5 @@ EXAMPLE
   $ clitest helloA
 ```
 
-_See code: [src/commands/helloA.ts](https://github.com/VerasThiago/pluginA/blob/v0.0.0/src/commands/helloA.ts)_
+_See code: [build/commands/helloA.ts](https://github.com/VerasThiago/pluginA/blob/v0.0.0/build/commands/helloA.ts)_
 <!-- commandsstop -->

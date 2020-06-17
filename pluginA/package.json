@@ -1,8 +1,8 @@
 {
-  "name": "pluginA",
+  "name": "@thiagoveras/pluginA",
   "version": "0.0.0",
   "author": "Thiago Veras @VerasThiago",
-  "bugs": "https://github.com/VerasThiago/pluginA/issues",
+  "bugs": "https://github.com/VerasThiago/npmPackageTests/tree/master/pluginA/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -21,12 +21,12 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/lib",
+    "/build",
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json",
     "/yarn.lock"
   ],
-  "homepage": "https://github.com/VerasThiago/pluginA",
+  "homepage": "https://github.com/VerasThiago/npmPackageTests/tree/master/pluginA",
   "keywords": [
     "oclif-plugin"
   ],
@@ -38,10 +38,10 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "VerasThiago/pluginA",
+  "repository": "VerasThiago/npmPackageTests",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
+    "prepack": "rm -rf build && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "echo NO TESTS",
     "version": "oclif-dev readme && git add README.md"
   }
