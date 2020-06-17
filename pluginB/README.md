@@ -15,11 +15,11 @@ pluginB
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @thiagoveras/pluginB
+$ npm install -g @thiagoveras/plugin-b
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@thiagoveras/pluginB/0.0.0 linux-x64 node-v10.19.0
+@thiagoveras/plugin-b/0.0.0 linux-x64 node-v10.19.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
