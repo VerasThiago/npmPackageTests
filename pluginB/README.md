@@ -1,7 +1,11 @@
 pluginB
 =======
 
-
+``` 
+"peerDependencies": {
+  "@thiagoveras/toolbelt-api-test": "^1.1.1"
+}
+``` 
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/pluginB.svg)](https://npmjs.org/package/pluginB)

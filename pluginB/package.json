@@ -6,7 +6,6 @@
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
-    "@thiagoveras/toolbelt-api-test": "1.1.0",
     "tslib": "^1"
   },
   "devDependencies": {
@@ -45,5 +44,7 @@
     "test": "echo NO TESTS",
     "version": "oclif-dev readme && git add README.md"
   },
-  "peerDependencies": {}
+  "peerDependencies": {
+    "@thiagoveras/toolbelt-api-test": "^1.1.1"
+  }
 }
