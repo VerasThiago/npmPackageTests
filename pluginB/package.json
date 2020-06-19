@@ -1,12 +1,12 @@
 {
   "name": "@thiagoveras/plugin-b",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "author": "Thiago Veras @VerasThiago",
   "bugs": "https://github.com/VerasThiago/npmPackageTests/tree/master/pluginB/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
-    "@thiagoveras/toolbelt-api-test": "^1.1.0",
+    "@thiagoveras/toolbelt-api-test": "1.1.0",
     "tslib": "^1"
   },
   "devDependencies": {

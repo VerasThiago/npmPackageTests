@@ -19,7 +19,7 @@ $ npm install -g @thiagoveras/plugin-b
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@thiagoveras/plugin-b/0.2.1 linux-x64 node-v10.19.0
+@thiagoveras/plugin-b/0.2.3 linux-x64 node-v10.19.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -45,5 +45,5 @@ EXAMPLE
   $ clitest helloB
 ```
 
-_See code: [build/commands/helloB.ts](https://github.com/VerasThiago/npmPackageTests/blob/v0.2.1/build/commands/helloB.ts)_
+_See code: [build/commands/helloB.ts](https://github.com/VerasThiago/npmPackageTests/blob/v0.2.3/build/commands/helloB.ts)_
 <!-- commandsstop -->
