@@ -173,20 +173,14 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-1.0.4.tgz#b740f68609dfae8aa71c3a6cab15d816407ba493"
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
-"@thiagoveras/plugin-b@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@thiagoveras/plugin-b/-/plugin-b-0.2.2.tgz#b2f1c56a337e7e65740cc165c9f39e15f3dd0ba3"
-  integrity sha512-22L7TtsbFH/Wjej+A+UgSzVqYkRI6VDVsNzPwVz2/1epL/U4TMMe21CUXUS1JDalyCoJpwClShvgJc/k7HnTLg==
+"@thiagoveras/plugin-b@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@thiagoveras/plugin-b/-/plugin-b-0.2.4.tgz#2ff42fc18447b7a0f55b71d5d87c26e5c23367c0"
+  integrity sha512-5yNfl/uod0UPUgi0i9pXlNj7G1IYdgyBZd/gEOiKQrq4w4/W8+p32/0TkT4UUevM5bjyCri2uMrr2soCS0gtgw==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
-    "@thiagoveras/toolbelt-api-test" "1.1.0"
     tslib "^1"
-
-"@thiagoveras/toolbelt-api-test@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@thiagoveras/toolbelt-api-test/-/toolbelt-api-test-1.1.0.tgz#a69fa0ae6ed674c1ab951e35ea74ce85d8602206"
-  integrity sha512-RRiwgP1KVkB8w6mPSzP5h1wkQsQ4SIUuVbR4otqqfwDq/FFU5G8P3AVRo7GH6FEJd2K0ahBjwCShPyWulvlrjw==
 
 "@thiagoveras/toolbelt-api-test@^1.1.1":
   version "1.1.1"
