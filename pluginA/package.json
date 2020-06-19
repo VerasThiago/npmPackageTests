@@ -6,7 +6,7 @@
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
-    "@thiagoveras/toolbelt-api-test": "1.0.10",
+    "@thiagoveras/toolbelt-api-test": "1.2.0",
     "tslib": "^1"
   },
   "devDependencies": {
