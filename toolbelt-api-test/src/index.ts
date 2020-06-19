@@ -2,12 +2,12 @@ export abstract class Display {
 
     private static dateDAO = new Date()
 
-    static time() {
-        console.log(this.dateDAO.toLocaleTimeString())
+    static time(): string {
+        return this.dateDAO.toLocaleTimeString()
     }
 
-    static date() {
-        console.log(this.dateDAO.toLocaleDateString())
+    static date(): string {
+        return this.dateDAO.toLocaleDateString()
     }
     
 }
