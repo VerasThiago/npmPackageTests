@@ -11,8 +11,8 @@
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
     "@oclif/plugin-plugins": "^1.7.10",
-    "@thiagoveras/plugin-b": "^0.2.3",
-    "@thiagoveras/toolbelt-api-test": "^1.2.0",
+    "@thiagoveras/plugin-b": "0.2.2",
+    "@thiagoveras/toolbelt-api-test": "^1.1.1",
     "tslib": "^1"
   },
   "devDependencies": {
@@ -42,7 +42,8 @@
     "bin": "clitest",
     "plugins": [
       "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
+      "@oclif/plugin-plugins",
+      "@thiagoveras/plugin-b"
     ]
   },
   "repository": "VerasThiago/clitest",

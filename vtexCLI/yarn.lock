@@ -173,10 +173,10 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-1.0.4.tgz#b740f68609dfae8aa71c3a6cab15d816407ba493"
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
-"@thiagoveras/plugin-b@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@thiagoveras/plugin-b/-/plugin-b-0.2.3.tgz#ef3be3657c36ee88ab6f5f077940240a8c93838c"
-  integrity sha512-Tnod8+gjvP9HvSH/o2QKOw+R6hueQND9ggt66dBO8WqsIh4WcMSfM8bZTOXTe8N8JNwItEgpbmopcrLZWTDU3g==
+"@thiagoveras/plugin-b@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@thiagoveras/plugin-b/-/plugin-b-0.2.2.tgz#b2f1c56a337e7e65740cc165c9f39e15f3dd0ba3"
+  integrity sha512-22L7TtsbFH/Wjej+A+UgSzVqYkRI6VDVsNzPwVz2/1epL/U4TMMe21CUXUS1JDalyCoJpwClShvgJc/k7HnTLg==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
@@ -188,10 +188,10 @@
   resolved "https://registry.yarnpkg.com/@thiagoveras/toolbelt-api-test/-/toolbelt-api-test-1.1.0.tgz#a69fa0ae6ed674c1ab951e35ea74ce85d8602206"
   integrity sha512-RRiwgP1KVkB8w6mPSzP5h1wkQsQ4SIUuVbR4otqqfwDq/FFU5G8P3AVRo7GH6FEJd2K0ahBjwCShPyWulvlrjw==
 
-"@thiagoveras/toolbelt-api-test@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@thiagoveras/toolbelt-api-test/-/toolbelt-api-test-1.2.0.tgz#9e84605f32183d4ccb6617a7c5d2041a83acea46"
-  integrity sha512-THranECJRyFtpxMLZtreU1IsenxEUbYlzi3PVbhSArLWHbfX/RdDMkb65F/EE2+J1kS+55LLPrt1k9lz5WpTyw==
+"@thiagoveras/toolbelt-api-test@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@thiagoveras/toolbelt-api-test/-/toolbelt-api-test-1.1.1.tgz#0a8727e41f32fae84c8198751276f9873c94c6b8"
+  integrity sha512-XCHEXM0Lx7XZSPtoz6pWF/1XZXdFyLTSjtx99oih/zkJp8eu1Ow4j2CttQvBPG2bEdnC/FwcnwSbfedE3RNaug==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"

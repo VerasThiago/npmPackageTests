@@ -1,11 +1,6 @@
 pluginB
 =======
 
-``` 
-"peerDependencies": {
-  "@thiagoveras/toolbelt-api-test": "^1.1.1"
-}
-``` 
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/pluginB.svg)](https://npmjs.org/package/pluginB)
@@ -32,5 +27,22 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`oclif-example helloB [FILE]`](#oclif-example-hellob-file)
 
+## `oclif-example helloB [FILE]`
+
+Single Command from Plugin B
+
+```
+USAGE
+  $ oclif-example helloB [FILE]
+
+OPTIONS
+  -h, --help  show CLI help
+
+EXAMPLE
+  $ clitest helloB
+```
+
+_See code: [build/commands/helloB.ts](https://github.com/VerasThiago/npmPackageTests/blob/v0.2.4/build/commands/helloB.ts)_
 <!-- commandsstop -->

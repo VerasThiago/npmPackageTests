@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Display = void 0;
 class Display {
     static time() {
-        return this.dateDAO.toLocaleTimeString();
+        console.log(this.dateDAO.toLocaleTimeString());
     }
     static date() {
-        return this.dateDAO.toLocaleDateString();
+        console.log(this.dateDAO.toLocaleDateString());
     }
 }
 exports.Display = Display;

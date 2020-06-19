@@ -28,12 +28,30 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`clitest helloB [FILE]`](#clitest-hellob-file)
 * [`clitest help [COMMAND]`](#clitest-help-command)
 * [`clitest plugins`](#clitest-plugins)
 * [`clitest plugins:install PLUGIN...`](#clitest-pluginsinstall-plugin)
 * [`clitest plugins:link PLUGIN`](#clitest-pluginslink-plugin)
 * [`clitest plugins:uninstall PLUGIN...`](#clitest-pluginsuninstall-plugin)
 * [`clitest plugins:update`](#clitest-pluginsupdate)
+
+## `clitest helloB [FILE]`
+
+Single Command from Plugin B
+
+```
+USAGE
+  $ clitest helloB [FILE]
+
+OPTIONS
+  -h, --help  show CLI help
+
+EXAMPLE
+  $ clitest helloB
+```
+
+_See code: [@thiagoveras/plugin-b](https://github.com/VerasThiago/npmPackageTests/blob/v0.2.4/build/commands/helloB.ts)_
 
 ## `clitest help [COMMAND]`
 
