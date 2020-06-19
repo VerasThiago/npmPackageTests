@@ -144,10 +144,10 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-1.0.4.tgz#b740f68609dfae8aa71c3a6cab15d816407ba493"
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
-"@thiagoveras/toolbelt-api-test@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@thiagoveras/toolbelt-api-test/-/toolbelt-api-test-1.0.1.tgz#a1a99da946aefdbafb95cf8a10950213bf02af6f"
-  integrity sha512-8bpKAMf1KkTzgwyDabTcwNGuEg+993WWxghb0eyuHhGn+LazAjaKrTkU5YJ58fo1VZ6EpA2+wYshf6M6GsCkdQ==
+"@thiagoveras/toolbelt-api-test@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@thiagoveras/toolbelt-api-test/-/toolbelt-api-test-1.1.0.tgz#a69fa0ae6ed674c1ab951e35ea74ce85d8602206"
+  integrity sha512-RRiwgP1KVkB8w6mPSzP5h1wkQsQ4SIUuVbR4otqqfwDq/FFU5G8P3AVRo7GH6FEJd2K0ahBjwCShPyWulvlrjw==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
