@@ -11,7 +11,8 @@
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
     "@oclif/plugin-plugins": "^1.7.10",
-    "@thiagoveras/toolbelt-api-test": "^1.0.10",
+    "@thiagoveras/plugin-b": "^0.2.3",
+    "@thiagoveras/toolbelt-api-test": "^1.2.0",
     "tslib": "^1"
   },
   "devDependencies": {
